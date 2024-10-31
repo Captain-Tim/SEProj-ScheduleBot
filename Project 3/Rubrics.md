@@ -57,8 +57,8 @@ Project Name: Schedule Bot
 |Q5 - How you support your software|||
 |5\.1) Does your software describe how a user can get help with using your software?|YES||
 |5\.2) Does your website and documentation describe what support, if any, you provide to users and developers?|YES||
-|5\.3) Does your project have an e-mail address or forum that is solely for supporting users?|NO||
-|5\.4) Are e-mails to your support e-mail address received by more than one person?|N/A||
+|5\.3) Does your project have an e-mail address or forum that is solely for supporting users?|YES||
+|5\.4) Are e-mails to your support e-mail address received by more than one person?|NO||
 |5\.5) Does your project have a ticketing system to manage bug reports and feature requests?|NO||
 |5\.6) Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests?|N/A|<p></p><p></p>|
 |Q6 - Your software's maintainability|||
@@ -84,7 +84,7 @@ Project Name: Schedule Bot
 |11\.3) Do you provide publicly-available instructions for deploying your software?|NO||
 |11\.4) Does your documentation list all third-party dependencies?|YES||
 |11\.5) Does your documentation list the version number for all third-party dependencies?|YES||
-|11\.6) Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or|NO||
+|11\.6) Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional|NO||
 |<p>11\.7) Can you download dependencies using a dependency management tool or package manager?\*</p><p>e.g. Ivy (<http://ant.apache.org/ivy/>), Maven (<https://maven.apache.org/>), Python pip (<https://pypi.python.org/pypi/pip>) or setuptools (<https://pypi.python.org/pypi/setuptools>), PHP Composer (<https://getcomposer.org/>), Ruby gems ([https://rubygems.org](https://rubygems.org/)), or R PackRat (<https://rstudio.github.io/packrat/>)</p><p></p>|YES|<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>|
 |11\.8) Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful?|YES||
 |Q12 - How you test your software|||
@@ -99,7 +99,7 @@ Project Name: Schedule Bot
 |13\.3) Do you provide success stories on your website?|NO||
 |13\.4) Do you list your important partners and collaborators on your website?|N/A||
 |13\.5) Do you list your project's publications on your website or link to a resource where these are available?|NO||
-|13\.6) Do you list third-party publications that refer to your software on your website or link to a resource where these are available?|NO||
+|13\.6) Do you list third-party publications that refer to your software on your website or link to a resource where these are available?|YES||
 |13\.7) Can users subscribe to notifications to changes to your source code repository?|YES|<p></p><p></p>|
 |13\.8) If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|NO||
 |Q14 - How you manage contributions|||
