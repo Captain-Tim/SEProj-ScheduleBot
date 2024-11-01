@@ -17,7 +17,7 @@ from functionality.import_file import import_file
 from functionality.Google import connect_google
 from functionality.GoogleEvent import get_events
 from functionality.Delete_Event import delete_event
-from functionality.Edit_Event import edit_event
+# from functionality.Edit_Event import edit_event
 from functionality.recommend_event import recommend_event
 from functionality.shared_functions import get_user_participation_history
 from functionality.shared_functions import get_event_history
