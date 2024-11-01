@@ -1,40 +1,27 @@
-# This workflow will install Python dependencies, run tests, and create a Code Coverage Report
+name: pytest
 
-name: Code Coverage
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
-  build:
+  test:
+    name: Run tests and collect coverage
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x # Adjust to your Python version
+        uses: actions/setup-python@v4
 
       - name: Install dependencies
-        run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install pytest
-          pip install pytest-cov
+        run: pip install pytest pytest-cov
 
-      - name: Run tests and generate coverage report
-        run: |
-          export PYTHONPATH=src
-          pytest --cov=./ --cov-report=xml
+      - name: Run tests
+        run: pytest --cov
 
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
+      - name: Upload results to Codecov
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
