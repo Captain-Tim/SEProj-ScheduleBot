@@ -1,5 +1,6 @@
 ![ScheduleBot logo](https://raw.githubusercontent.com/lyonva/ScheduleBot/main/docs/img/banner.png)
 
+[![codecov](https://codecov.io/gh/Captain-Tim/SEProj-ScheduleBot/graph/badge.svg?token=Q50N8X3R0R)](https://codecov.io/gh/Captain-Tim/SEProj-ScheduleBot)
 ![Python v3.9](https://img.shields.io/badge/python-v3.9-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://gitHub.com/kgudipe/SEProj-ScheduleBot/graphs/commit-activity) [![Contributors Activity](https://img.shields.io/github/commit-activity/m/kgudipe/SEProj-ScheduleBot)](https://github.com/kgudipe/SEProj-ScheduleBot/pulse)
